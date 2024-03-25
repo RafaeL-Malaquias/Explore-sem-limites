@@ -24,11 +24,6 @@ img {
     width: 100%;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-}
 
 header {
     padding: 0 3.4rem 9.3rem 3.2rem;
@@ -77,16 +72,18 @@ header .header-text .button-down:hover {
 }
 
 /* cards */
-main {
+.content-cards {
    background-image: var(--gradient-background);
-   
+
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 5.69rem 3.3rem;
 
 }
 
 .cards {
+    margin: 0 auto;
     background-color: var(--white);
     border-radius: 20px;
     width: 22rem;
@@ -116,7 +113,7 @@ main {
     display: block;
     width: 3.6rem;
     height: 3.6rem;
-    margin-bottom: 2rem ;
+    margin-bottom: 1rem ;
 }
 
 form {
