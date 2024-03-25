@@ -28,6 +28,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;
+    overflow: auto;
 }
 
 header {
@@ -41,6 +42,11 @@ h1 {
     font-weight: 900;
     margin: 1.7rem 0 0.5rem 0;
 }
+
+.header-text {
+
+}
+
 .header-text p {
     color: var(--colors-text);
     font-size: 2rem;
@@ -57,7 +63,6 @@ header .header-text .button-down {
 
     display: flex;
     justify-content: center;
-    align-items: center;
 
     margin: 0 auto;
     transition: filter 300ms;
@@ -68,5 +73,35 @@ header .header-text .button-down:hover {
 .header-text img {
     width: 3rem;
 }
+
+/* cards */
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.cards {
+    background-color: #B52184; 
+
+    padding: 26px;
+    margin-bottom: 50px;
+
+}
+.cards img {
+    display: block;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+form {
+   display: flex;
+   background-color: red;
+}
+
+
+
 
 
