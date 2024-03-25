@@ -1,0 +1,55 @@
+:root {
+    font-size: 62.5%;
+    --font: 'Mulish', sans-serif;
+
+    /* colors*/
+    -colors-first: #B52184;
+    --colors-text: #312D64;
+    --white: #fff;
+    --light-gray: #fbf9fc;
+    --gradient-background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--light-gray);
+    font-family: var(--font)
+}
+img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    padding: 0 3.4rem 9.3rem 3.2rem;
+    width: 100%;
+}
+h1 {
+    color: #B52184;
+    font-family: var(--font);
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin: 1.7rem 0 0.5rem 0;
+}
+.header-text p {
+    color: var(--colors-text);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2px;
+    margin-bottom: 3.5rem;
+}
+.header-text img {
+    width: 3rem;
+}
+
+
