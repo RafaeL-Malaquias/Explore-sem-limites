@@ -97,8 +97,18 @@ main {
 .cards  h2 {
     color: var(--colors-first);
     font-family: var(--font);
-    font-size: 1.8rem;
-    font-weight: 900;
+    font-size: 1.9rem;
+    font-weight: 800 ;
+    margin-bottom:  0.5rem;
+}
+.cards p {
+    color: var(--colors-text);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    line-height: auto;
+
 }
 
 
