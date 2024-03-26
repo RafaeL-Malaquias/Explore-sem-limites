@@ -119,8 +119,8 @@ header .header-text .button-down:hover {
 /* form */
 .container-form{
     display: flex;
-    width:  26rem;
-    height: 35rem;
+    width:  27rem;
+    height: 35.313rem;
 
     margin: 0 auto;
     padding: 1rem;
@@ -142,8 +142,9 @@ form h2 {
 fieldset , textarea{
     border: none;
 }
-input {
-    width: 100%;
+.input-wrapper {
+    width: 21rem;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,7 +156,7 @@ input {
     margin-bottom: 1.5rem;
 }
 textarea {
-    width: 21.9rem;
+    width: 21rem;
     height: 7.8rem;
     border: 1px solid black;
     border-radius: 1.6rem;
@@ -176,14 +177,35 @@ textarea {
 
 }
 
+/* button */
+
+button {
+    color: var(--white);
+    background-image: var(--gradient-background);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    border: none;
+    border-radius: 16px;
+    padding: 16px;
+
+    cursor: pointer;
+ 
+}
+.btn {
+  
+}
+
 
 
 
 
 /* foooter */
 footer {
-    width: 200px;
     background-color: #343193;
+    margin-top: 4rem;
 }
 
 
