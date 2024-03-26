@@ -154,17 +154,29 @@ input {
 
     margin-bottom: 1.5rem;
 }
+textarea {
+    width: 21.9rem;
+    height: 7.8rem;
+    border: 1px solid black;
+    border-radius: 1.6rem;
+    padding: 1rem 0.78rem 0.75rem  1rem;
 
+    margin-bottom: 1.5rem;    
+}
 
 ::placeholder{
+    color: var(--colors-text);
+    display: flex;
+    align-items: center;
     font-size: 1rem;
     font-family: var(--font);
-    font-weight: 400;
-    line-height: 100%;
-    padding: 0.88rem 0.78rem 0.75rem  0.87rem;
-    color: var(--colors-text);
-    text-align: left;
+    font-weight: 600;
+    padding-top: 1px;
+    padding-left: 5px;
+
 }
+
+
 
 
 
