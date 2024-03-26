@@ -116,14 +116,29 @@ header .header-text .button-down:hover {
     margin-bottom: 1rem ;
 }
 
+/* form */
+.container-form{
+    display: flex;
+    width:  22rem;
+    height: 26rem;
+
+    margin: 0 auto;
+
+    padding: ;
+
+}
+input {
+    display: flex;
+    gap: ;
+}
 form {
-   display: flex;
    background-color: red;
 }
 
 
 /* foooter */
 footer {
+    width: 200px;
     background-color: #343193;
 }
 
