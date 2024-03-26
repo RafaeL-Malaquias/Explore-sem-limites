@@ -123,22 +123,11 @@ header .header-text .button-down:hover {
     height: 35rem;
 
     margin: 0 auto;
-
     padding: 1rem;
 
 }
-fieldset , textarea{
-    border: none;
-}
-input {
-    display: flex;
-    gap 1.2rem;
-    border: 2px solid black;
-    border-radius: 1.6rem;
-    padding: 0.88rem 0.78rem 0.75rem  1rem;
-}
-form {   
-}
+
+
 form h2 {
     color: var(--colors-first);
     font-family: var(--font);
@@ -147,7 +136,36 @@ form h2 {
     text-align: left;
 
     padding-top: 4.8rem;
+    margin-bottom: 2.1rem;
 }
+
+fieldset , textarea{
+    border: none;
+}
+input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    border: 1px solid black;
+    border-radius: 1.6rem;
+    padding: 0.88rem 0.78rem 0.75rem  1rem;
+
+    margin-bottom: 1.5rem;
+}
+
+
+::placeholder{
+    font-size: 1rem;
+    font-family: var(--font);
+    font-weight: 400;
+    line-height: 100%;
+    padding: 0.88rem 0.78rem 0.75rem  0.87rem;
+    color: var(--colors-text);
+    text-align: left;
+}
+
 
 
 /* foooter */
