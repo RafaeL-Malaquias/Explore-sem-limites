@@ -222,16 +222,16 @@ footer {
 
 
 header  {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 .top-log {
     
-    right: 0;
-    
 }
 .top-log img  {
-    width: 50%;
+    width: 40%;
+    position: absolute;
     right: 0;
     margin-top: 0;
 }
