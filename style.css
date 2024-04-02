@@ -118,7 +118,6 @@ header .header-text .button-down:hover {
 
 /* form */
 .container-form{
-    height: 85vh;
     display: flex;
 
 }
