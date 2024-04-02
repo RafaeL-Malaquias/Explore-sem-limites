@@ -216,5 +216,26 @@ footer {
 }
 
 
+/* full screen */
+
+@media (min-width: 450px) {
+
+
+header  {
+    display: flex;
+    flex-direction: column;
+}
+.top-log {
+    
+    right: 0;
+    
+}
+.top-log img  {
+    width: 50%;
+    right: 0;
+    margin-top: 0;
+}
+}
+
 
 
