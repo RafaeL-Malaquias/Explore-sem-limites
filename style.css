@@ -230,12 +230,12 @@ header  {
 
 }
 .header-text {
-    margin-top: 19.5rem;
+    margin-top: 29rem;
 }
 .header-text h1 {
     text-align: left;
     font-size: 60px;
-    font-weight: 900;
+
 }
 .header-text p {
     color: var(--colors-text);
@@ -243,7 +243,7 @@ header  {
     font-size: 3.625rem;
     font-weight: 500;
     text-align: left;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
 }
 
