@@ -273,13 +273,22 @@ header .header-text .box-btn{
     position: absolute;
     right: 0;
     transition: all ease-in-out 0.5s;
-    
     cursor: pointer;
 }
 .top-log img:hover{
     width: 31%;
-    filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+
 }
+
+
+/* cards */
+.content-cards img {
+    transition: all ease-in-out 0.5s;
+}
+.content-cards img:hover {
+    cursor: pointer;
+    filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+    }
 }
 
 
