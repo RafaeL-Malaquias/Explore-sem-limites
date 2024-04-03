@@ -222,18 +222,48 @@ footer {
 
 
 header  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
     display: flex;
-    justify-content: center;
+
 }
+.header-text {
+    margin-top: 19.5rem;
+}
+.header-text h1 {
+    text-align: left;
+    font-size: 3.9rem;
+    font-weight: 900;
+}
+.header-text p {
+    color: var(--colors-text);
+    font-family: var(--font);
+    font-size: 3.625rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 1rem;
+
+}
+
+header .header-text .button-down  {
+    margin-left: 0px;
+}
+header .header-text .box-btn{
+    padding-top: 11.25rem;
+    display: block;
+}
+
+
+
 .top-log {
     
 }
 .top-log img  {
-    width: 40%;
+    width: 30%;
     position: absolute;
     right: 0;
-    margin-top: 0;
 }
 }
 
