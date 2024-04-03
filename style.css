@@ -50,7 +50,6 @@ h1 {
 }
 
 .header-text p {
-    width: 35rem;
     color: var(--colors-text);
     text-align: center;
     font-size: 1.8rem;
@@ -274,7 +273,8 @@ header .header-text .box-btn{
     position: absolute;
     right: 0;
     transition: all ease-in-out 0.5s;
-   
+    
+    cursor: pointer;
 }
 .top-log img:hover{
     width: 31%;
