@@ -284,12 +284,26 @@ header .header-text .box-btn{
 /* cards */
 .content-cards  {
     width: 100%;
-    height: 100vh;
+}
+.cards {
+    width: 370px;
+    height: 450px;
 }
 main {
     display: flex;
+    margin-top: 4rem;
 }
+main section .cards {
+    
+    text-align:left;
+}
+
+/* img card*/
 .content-cards img {
+    width: 95px;
+    height: 95px;
+    margin-top: 2rem;
+    margin-left: 2rem;
     transition: all ease-in-out 0.5s;
 }
 .content-cards img:hover {
@@ -297,6 +311,38 @@ main {
     filter: hue-rotate(7deg) contrast(101%) saturate(200%);
     }
 }
+/*text cards */
+main section .text-cards {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+}
+
+
+
+
+
+
+
+/* form */
+form {
+    height: 90vh;
+}
+
+/*
+.container-form  img {
+    width: 40%;
+    position: absolute;
+    right: 0;
+}*/
+
+
+
+
+
+
+
+
 
 
 
