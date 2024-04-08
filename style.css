@@ -21,11 +21,10 @@ body {
     font-family: var(--font)
 }
 img {
-    width: 100%;
+
     transition: all ease-in-out 1s;
 }
 img:hover{
-    width: 100%;
     filter: hue-rotate(7deg) contrast(101%) saturate(200%);
 }
 
@@ -269,16 +268,12 @@ header .header-text .box-btn{
     
 }
 .top-log img  {
-    width: 30%;
     position: absolute;
     right: 0;
     transition: all ease-in-out 0.5s;
     cursor: pointer;
 }
-.top-log img:hover{
-    width: 31%;
 
-}
 
 
 /* cards */
@@ -333,13 +328,16 @@ main section .text-cards {
 /* form */
 
 .container-form {
+    /*
     background-image:  url(assests/image2bgform.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
+    */
+    height: 100vh;
 }
 form {
-    width: 100%;
+  
     margin: 5.94rem 0 5.94rem 6.81rem;
 }
 .container-form form h2 {
@@ -352,12 +350,15 @@ form {
 }
 
 
-/*
+
 .container-form  img {
-    width: 40%;
     position: absolute;
     right: 0;
-}*/
+}
+
+textarea {
+    margin-bottom: 2.4rem;
+}
 
 
 /* footer */
