@@ -334,12 +334,21 @@ main section .text-cards {
 
 .container-form {
     background-image:  url(assests/image2bgform.jpg);
-    background-position: center right;
+    background-position: right center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 form {
-
+    width: 100%;
     margin: 5.94rem 0 5.94rem 6.81rem;
+}
+.container-form form h2 {
+    font-size: 3.62rem;
+}
+
+.container-form input {
+    width: 50rem;
+    margin-bottom: 2.4rem;
 }
 
 
@@ -349,6 +358,13 @@ form {
     position: absolute;
     right: 0;
 }*/
+
+
+/* footer */
+
+footer p {
+    padding: 16px;
+}
 
 
 
