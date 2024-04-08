@@ -334,7 +334,7 @@ main section .text-cards {
     background-repeat: no-repeat;
     background-size: contain;
     */
-    height: 100vh;
+    height: 90vh;
 }
 form {
   
@@ -354,6 +354,7 @@ form {
 .container-form  img {
     position: absolute;
     right: 0;
+    
 }
 
 textarea {
