@@ -331,9 +331,15 @@ main section .text-cards {
 
 
 /* form */
+
+.container-form {
+    
+}
 form {
+    margin: 95;
     height: 90vh;
 }
+
 
 /*
 .container-form  img {
