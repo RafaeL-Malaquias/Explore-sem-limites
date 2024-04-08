@@ -350,11 +350,14 @@ form {
 }
 
 
+.logo-form {
+    border: 2px solid black;
 
+}
 .container-form  img {
     position: absolute;
     right: 0;
-    
+    width: 49%;
 }
 
 textarea {
@@ -362,10 +365,11 @@ textarea {
 }
 
 
+
 /* footer */
 
 footer p {
-    padding: 16px;
+
 }
 
 
