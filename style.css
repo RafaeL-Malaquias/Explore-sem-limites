@@ -218,15 +218,12 @@ footer {
     text-align: center;
     padding: 16px;
 
-
-    margin-top: 4rem;
 }
 
 
 /* full screen */
 
 @media (min-width: 450px) {
-
 
 header  {
     display: flex;
@@ -236,14 +233,17 @@ header  {
     display: flex;
 
 }
+
 .header-text {
     margin-top: 29rem;
 }
+
 .header-text h1 {
     text-align: left;
     font-size: 60px;
 
 }
+
 .header-text p {
     color: var(--colors-text);
     font-family: var(--font);
@@ -257,11 +257,11 @@ header  {
 header .header-text .button-down  {
     margin-left: 0px;
 }
+
 header .header-text .box-btn{
     padding-top: 11.25rem;
     display: block;
 }
-
 
 /* img*/
 .top-log {
@@ -308,8 +308,8 @@ main section .text-cards p {
     cursor: pointer;
     filter: hue-rotate(7deg) contrast(101%) saturate(200%);
     }
-}
-/*text cards */
+
+    /*text cards */
 main section .text-cards {
     margin-top: 2rem;
     margin-left: 2rem;
@@ -319,13 +319,11 @@ main section .text-cards {
 /* form */
 
 .container-form {
-    /*
     background-image:  url(assests/image2bgform.jpg);
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: contain;
-    */
 }
+
 form {
   
     margin: 5.94rem 0 5.94rem 6.81rem;
@@ -355,6 +353,12 @@ textarea {
 footer p {
 
 }
+
+
+
+} /* end responsive */
+
+
 
 
 
