@@ -273,9 +273,6 @@ header .header-text .box-btn{
     transition: all ease-in-out 0.5s;
     cursor: pointer;
 }
-
-
-
 /* cards */
 .content-cards  {
 
@@ -319,12 +316,6 @@ main section .text-cards {
     
 }
 
-
-
-
-
-
-
 /* form */
 
 .container-form {
@@ -334,7 +325,6 @@ main section .text-cards {
     background-repeat: no-repeat;
     background-size: contain;
     */
-    height: 90vh;
 }
 form {
   
@@ -345,7 +335,6 @@ form {
 }
 
 .container-form input {
-    width: 50rem;
     margin-bottom: 2.4rem;
 }
 
@@ -353,11 +342,6 @@ form {
 .logo-form {
     border: 2px solid black;
 
-}
-.container-form  img {
-    position: absolute;
-    right: 0;
-    width: 49%;
 }
 
 textarea {
