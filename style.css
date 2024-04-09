@@ -16,13 +16,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body {
-   background-color: var();
+    background-color: var(--background-body);
     font-family: var(--font)
 }
 img {
-
     transition: all ease-in-out 1s;
 }
 img:hover{
@@ -80,10 +80,10 @@ header .header-text .button-down:hover {
 }
 
 
-
 /* cards */
 .content-cards {
    background-image: var(--gradient-background);
+   
 
     display: flex;
     flex-direction: column;
@@ -222,21 +222,31 @@ footer {
 }
 
 
-/* full screen */
+/* ------------------  full screen  --------------------------------------------*/
 
 @media (min-width: 450px) {
 
 header  {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     height: 100vh;
-    display: flex;
+
 
 }
 
+/* img*/
+
+.top-log img  {
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+/* header texts */
 .header-text {
-    margin-top: 29rem;
+    margin-left: 7rem;
+    margin-top: 19rem;
+
 }
 
 .header-text h1 {
@@ -264,16 +274,8 @@ header .header-text .box-btn{
     display: block;
 }
 
-/* img*/
-.top-log {
-    
-}
-.top-log img  {
-    position: absolute;
-    right: 0;
-    transition: all ease-in-out 0.5s;
-    cursor: pointer;
-}
+
+
 /* cards */
 .content-cards  {
 
@@ -329,6 +331,7 @@ main section .text-cards {
 }
 
 form {
+    
     margin: 5.94rem 0 5.94rem 14.81rem;
 }
 .container-form form h2 {
@@ -337,11 +340,13 @@ form {
 }
 
 .container-form input {
+    background-color: var(--background-body);
     width: 70rem;
     height: 5rem;
     margin-bottom: 3.4rem;
 }
 textarea {
+    background-color: var(--background-body);
     width: 70rem;
     height: 14rem;
     margin-bottom: 2.4rem;
