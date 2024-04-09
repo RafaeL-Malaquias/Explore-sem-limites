@@ -7,6 +7,7 @@
     --colors-text: #312D64;
     --white: #fff;
     --light-gray: #fdfdfd;
+    --background-body: #F9F4FB;
     --gradient-background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
 }
 
@@ -17,7 +18,7 @@
     box-sizing: border-box;
 }
 body {
-   
+   background-color: var();
     font-family: var(--font)
 }
 img {
@@ -324,24 +325,24 @@ main section .text-cards {
     background-image:  url(assests/logo-form.svg);
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: 48%;
+    background-size: 45%;
 }
 
 form {
     margin: 5.94rem 0 5.94rem 14.81rem;
 }
 .container-form form h2 {
-    font-size: 3.62rem;
+    font-size: 4.62rem;
     margin-bottom: 3rem;
 }
 
 .container-form input {
-    width: 60rem;
+    width: 70rem;
     height: 5rem;
     margin-bottom: 3.4rem;
 }
 textarea {
-    width: 60rem;
+    width: 70rem;
     height: 14rem;
     margin-bottom: 2.4rem;
 }
