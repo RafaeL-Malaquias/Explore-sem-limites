@@ -159,11 +159,10 @@ fieldset , textarea{
     justify-content: center;
     align-items: center;
  
-    border: 2px solid var(--colors-text);
+ 
     border-radius: 1.6rem;
     padding: 0.88rem 0.78rem 0.75rem  1rem;
 
-    margin-bottom: 1.5rem;
 }
 textarea {
     width: 25rem;
@@ -176,6 +175,7 @@ textarea {
 }
 
 ::placeholder{
+    border: none;
     color: var(--colors-text);
     display: flex;
     align-items: center;
@@ -340,12 +340,27 @@ form {
     font-size: 4.62rem;
     margin-bottom: 3rem;
 }
-
-.container-form input {
-    background-color: var(--background-body);
-    width: 70rem;
-    height: 5rem;
+form label {
+    display: flex;
+    width: 500px;
+    border: 2px solid black;
+    align-items: center;
     margin-bottom: 3.4rem;
+    padding-top: 5px;
+}
+form label i {
+    margin-left: 14px;
+    font-size: 24px;    
+}
+.container-form input {
+    border: none;
+    background-color: ;
+}
+input:target{
+    border: none;
+}
+.container-form input:focus-visible{
+    border: none;
 }
 textarea {
     background-color: var(--background-body);
