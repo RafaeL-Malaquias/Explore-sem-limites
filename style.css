@@ -342,8 +342,8 @@ form {
 }
 form label {
     display: flex;
-    width: 500px;
-    border: 2px solid black;
+    border: 2px solid var(--colors-text);
+    border-radius: 1rem;
     align-items: center;
     margin-bottom: 3.4rem;
     padding-top: 5px;
@@ -353,19 +353,20 @@ form label i {
     font-size: 24px;    
 }
 .container-form input {
+    width: 100%;
+    outline: 0;
     border: none;
-    background-color: ;
+    background-color:  var(--background-body);
 }
-input:target{
-    border: none;
-}
+
 .container-form input:focus-visible{
     border: none;
 }
 textarea {
     background-color: var(--background-body);
-    width: 70rem;
+    width: 60rem;
     height: 14rem;
+    font-size: 1.5rem;
     margin-bottom: 2.4rem;
 }
 
