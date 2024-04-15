@@ -1,6 +1,6 @@
 <h1 align="center">EXPLORE SEM LIMITES</h1>
 <p align="center">
-  <a href="">
+  <a href="https://rafael-malaquias.github.io/Explore-sem-limites/">
     <img height="470em" src="assests/Screenshot_1.jpg">
     </a>
 </p>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://rafael-malaquias.github.io/Projeto-Discover/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://rafael-malaquias.github.io/Explore-sem-limites/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://www.figma.com/file/tuoG8KYZWt17yMXQepD8Qk/Explore-sem-limites-(Copy)?type=design&node-id=2-10958&mode=design&t=6k0IWJOurHOwxGPO-0">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
